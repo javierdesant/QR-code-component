@@ -6,22 +6,26 @@ interface QRcodeProps {
  
 const QRcode: FunctionComponent<QRcodeProps> = () => {
     return ( 
-        <div className=" ">
+        <div className="flex">
+            <div className=" w-72 mt-10 border-solid border-black border-2 h-auto bg-white mx-auto">
 
-            <img 
-                src="public/image-qr-code.png" 
-                alt="Frontend Mentor QRcode" 
-            />
+                <img 
+                    src="/image-qr-code.png" 
+                    alt="Frontend Mentor QRcode"
+                    className=" w-64 h-64 mx-auto mt-4 mb-4" 
+                />
 
-            <p>
-                Improve your front-end skills by building projects
-            </p>
+                <p className=" m-4 text-center font-outfit font-bold">
+                    Improve your front-end skills by building projects
+                </p>
 
-            <p>
-                Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-            </p>
+                <p className=" m-4 text-center font-outfit">
+                    Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+                </p>
 
+            </div>
         </div>
+
      );
 }
  
