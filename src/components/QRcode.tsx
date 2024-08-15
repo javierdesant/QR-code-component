@@ -7,7 +7,7 @@ interface QRcodeProps {
 const QRcode: FunctionComponent<QRcodeProps> = () => {
     return ( 
         <div className=" flex">
-            <div className=" w-auto rounded-2xl h-auto bg-white mx-auto">
+            <div className=" w-auto rounded-2xl h-auto bg-white mx-auto shadow-lg">
 
                 <img 
                     src="/image-qr-code.png" 
