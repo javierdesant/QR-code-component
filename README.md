@@ -8,6 +8,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
+  - [What I learnt](#what-i-learnt)
 - [Author](#author)
 
 ## Overview
@@ -27,7 +28,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - CSS Grid
 - [React](https://reactjs.org/) - JS library
-- [Tailwind CSS](https://styled-components.com/) - For styles
+- [Tailwind CSS](http://tailwindcss.com) - For styles
+
+### What I learnt
+
+In this project, I learnt how to:
+
+- Use Tailwind CSS to quickly style components.
+- Implement responsive design using Flexbox and CSS Grid.
+- Integrate a QR code component within a React application.
+- Connect a React App to a GitHub repository.
+- Deploy a React application to Netlify.
+
 
 ## Author
 
